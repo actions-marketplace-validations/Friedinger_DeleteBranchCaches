@@ -1,6 +1,6 @@
 {
     "name": "delete-branch-caches",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "description": "A GitHub Action to delete all caches associated with a specific branch reference in your repository.",
     "repository": {
         "type": "git",
@@ -19,18 +19,18 @@
     "main": "dist/index.js",
     "scripts": {
         "build": "npx ncc build src/index.ts -o dist --license licenses.txt",
-        "test": "vitest run --coverage"
+        "test": "vitest run"
     },
     "dependencies": {
-        "@actions/core": "1.11.1",
+        "@actions/core": "2.0.1",
         "@actions/github": "6.0.1",
         "@octokit/rest": "22.0.1",
-        "yaml": "2.8.1"
+        "yaml": "2.8.2"
     },
     "devDependencies": {
         "@vercel/ncc": "0.38.4",
-        "@vitest/coverage-v8": "4.0.10",
+        "@vitest/coverage-v8": "4.0.15",
         "typescript": "5.9.3",
-        "vitest": "4.0.10"
+        "vitest": "4.0.15"
     }
 }

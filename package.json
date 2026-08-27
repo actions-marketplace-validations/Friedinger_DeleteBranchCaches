@@ -1,6 +1,6 @@
 {
   "name": "delete-branch-caches",
-  "version": "2.4.1",
+  "version": "2.4.3",
   "description": "A GitHub Action to delete all caches associated with a specific branch reference in your repository.",
   "repository": {
     "type": "git",
@@ -25,20 +25,20 @@
     "fix": "prettier . --write && eslint . --fix"
   },
   "dependencies": {
-    "@actions/core": "3.0.0",
-    "@actions/github": "9.0.0",
+    "@actions/core": "3.0.1",
+    "@actions/github": "9.1.1",
     "@octokit/rest": "22.0.1",
-    "yaml": "2.8.3"
+    "yaml": "2.9.0"
   },
   "devDependencies": {
     "@eslint/js": "10.0.1",
-    "@vercel/ncc": "0.38.4",
-    "@vitest/coverage-v8": "4.1.2",
-    "eslint": "10.1.0",
+    "@vercel/ncc": "0.45.0",
+    "@vitest/coverage-v8": "4.1.11",
+    "eslint": "10.9.0",
     "eslint-config-prettier": "10.1.8",
-    "prettier": "3.8.1",
-    "typescript": "5.9.3",
-    "typescript-eslint": "8.57.2",
-    "vitest": "4.1.2"
+    "prettier": "3.9.6",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.68.0",
+    "vitest": "4.1.11"
   }
 }
